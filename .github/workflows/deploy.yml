@@ -28,4 +28,4 @@ jobs:
         context: ./api-mercadolibre  # Ruta donde está tu Dockerfile
         file: ./api-mercadolibre/Dockerfile
         push: true  # Subir la imagen a Docker Hub
-        tags: ${{ secrets.DOCKER_USERNAME }}/smart-price:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/smart-price:latest
