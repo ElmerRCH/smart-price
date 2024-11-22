@@ -3,7 +3,7 @@ name: Build and Deploy to Docker Hub
 on:
   push:
     branches:
-      - master  # Desencadena el flujo solo en cambios en la rama master
+      - main  # Desencadena el flujo solo en cambios en la rama main
 
 jobs:
   build-and-push:
