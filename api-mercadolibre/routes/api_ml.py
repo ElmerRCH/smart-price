@@ -40,7 +40,7 @@ async def get_producto():
 async def check_connection():
     
     petition = ApiUtility.check_api_connection()
-    return 'docker ruuuun'
+    return 'docker activo'
 
 @router.get("/precios")
 async def comparar_precios():
